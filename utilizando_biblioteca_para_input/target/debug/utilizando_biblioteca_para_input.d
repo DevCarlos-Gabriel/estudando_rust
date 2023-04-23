@@ -1,0 +1,1 @@
+/home/carlosgabrielnn/Documentos/GitHub/estudando_rust/utilizando_biblioteca_para_input/target/debug/utilizando_biblioteca_para_input: /home/carlosgabrielnn/Documentos/GitHub/estudando_rust/utilizando_biblioteca_para_input/src/main.rs
