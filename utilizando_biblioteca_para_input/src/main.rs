@@ -23,7 +23,7 @@ unwrap() (é um método que descompacta valores e coleta eles caso esteja tudo c
 
 
 fn main() {
-                            //Reservando um espaço na memoria 
+                            //Reservando um espaço na memoria.
     let mut numero1 = String :: new();
     io::stdin().read_line(&mut numero1).expect("Erro ao ler a variável numero1");
       
