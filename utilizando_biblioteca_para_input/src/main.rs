@@ -40,7 +40,10 @@ fn main() {
 /*
 stdin() ("standard input", entrada padrão, tem como entrada padrão o teclado)
 
-read_line() (lê uma linha inteira (até o caractere de nova linha "\n") do fluxo de entrada e a armazena em um String. O método retorna um Result<usize, io::Error>, que indica se a leitura foi bem-sucedida ou não, e o número de bytes lidos.)
+read_line() (lê uma linha inteira (até o caractere de nova linha "\n") do fluxo de entrada e a armazena em um String. O método retorna um Result<usize, io::Error>, que indica se a leitura foi bem-sucedida ou não, e o número de bytes lidos.) {
+
+    &mut ele cria uma referência mutável tanto para a variável numero1, como a numero2, assim quando um novo valor for inserido no input, esse mesmo valor vai ser armazenado dentro da variável que foi referida como mutável.
+}
 
 expect() (é um método que é chamado dependendo do valor do Result<T, E>. Ele é usado para descompactar o valor contido dentro do Result, assumindo que seja Ok(T), continua a execução do código. No entanto, se o valor for Err(E), o método expect() irá fazer com que o programa entre em pânico e encerrar imediatamente com uma mensagem de erro personalizada que é passada como argumento para o método)
 
